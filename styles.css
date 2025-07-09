@@ -40,6 +40,7 @@ form textarea {
     width: 100%;
     min-height: 60px;
     padding: 14px;
+    background: transparent;
 }
 
 form button{
@@ -47,7 +48,20 @@ form button{
     cursor: pointer;
 }
 
-btnContainer{
+.todoContainer,
+.todo{
+    display: flex;
+    flex-direction: column;
+    gap: 14px; 
+}
+
+.todo{
+    padding: 14px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
+
+.btnContainer{
     display: flex;
     gap: 6px;
     margin-left: auto;
